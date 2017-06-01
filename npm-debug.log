@@ -1,0 +1,38 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'start' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/psgtech/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/psgtech/ng-logo/package.json
+verbose loadDefaults ng-logo@0.0.0
+verbose run-script [ 'prestart', 'start', 'poststart' ]
+info prestart ng-logo@0.0.0
+info start ng-logo@0.0.0
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "ng serve"
+silly spawning [ 'sh', [ '-c', 'ng serve' ], '/home/psgtech/ng-logo' ]
+info ng-logo@0.0.0 Failed to exec start script
+ERR! ng-logo@0.0.0 start: `ng serve`
+ERR! `sh "-c" "ng serve"` failed with 127
+ERR! 
+ERR! Failed at the ng-logo@0.0.0 start script.
+ERR! This is most likely a problem with the ng-logo package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     ng serve
+ERR! You can get their info via:
+ERR!     npm owner ls ng-logo
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Linux 3.13.0-91-generic
+ERR! command "node" "/usr/bin/npm" "start"
+ERR! cwd /home/psgtech/ng-logo
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! code ELIFECYCLE
+ERR! message ng-logo@0.0.0 start: `ng serve`
+ERR! message `sh "-c" "ng serve"` failed with 127
+ERR! errno {}
+verbose exit [ 1, true ]
